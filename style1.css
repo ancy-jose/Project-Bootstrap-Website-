@@ -1,0 +1,100 @@
+html,body{
+    width: 100%;
+}
+section{
+    padding-top: 50px;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 5px 30px;
+    box-shadow: 5px 5px 20px rgb(46, 46, 46);
+    background-color: black;  
+}
+.nav-item{
+    padding-right: 10px;
+}
+.navbar-brand{
+    font-size: 35px;
+    font-weight: 400;
+    padding: 5px;
+    font-family: 'Estonia', cursive;
+}
+#navbarSupportedContent{
+    color: whitesmoke;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    color: peachpuff;
+}
+#navitem a:active{
+    color: white;
+}
+.logo>a{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+.logo>a:hover{
+   opacity: 0.7;
+}
+h3,h4{
+    font-family: 'Estonia', cursive;
+}
+#home{
+    background:url(homebg.jpg) no-repeat center center  fixed;
+    display: table;
+    height: 600px ;
+    width: 100%;
+    position: relative;
+    background-size: cover; 
+}
+.homepage{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+.homepage h1{
+font-size: 500%;
+font-weight: 700;
+color: white;
+}
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.pic{
+    display: block;
+    flex-direction: row;
+    height: 400px;
+    width: 400px;
+    padding: 30px;
+    opacity:0.8;
+}
+
+.pic:hover{
+    opacity: 1;
+    transition:0.9s;
+}
+.carousel-item{
+ height: 700px;
+ width: 100vh;
+}
+footer{
+    width: 20px;
+    background-color:rgb(19, 18, 18);
+    color:white;
+}
+@media(max-width:768px){
+    .homepage h1{
+        font-size:30px;
+    }
+    .logo{
+        padding-top: 5%;
+    }
+}
